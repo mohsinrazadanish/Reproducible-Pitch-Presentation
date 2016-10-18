@@ -1,0 +1,80 @@
+---
+title       : "Course Project: Shiny Application and Reproducible Pitch"
+subtitle    : "FC Barcelona in La Liga during 2005-2015"
+author      : "Muhammad Mohsin Raza Danish"
+job         : Data Science Trainee Design Engineer
+framework   : html5slides   # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## FC Barcelona's performance in La Liga during 2005-2015
+
+- FC Barcelona is a top tier football team in Spanish football league, La Liga.
+- The club is based in Barcelona, Catalonia, Spain.
+- The full name of the club is Futbol Club Barcelona and short name is FCB.
+- The nicknames are Barca or Blaugrana.
+- Their performance has been at the top in the last 10-11 years.
+- The app shows a comparison between FCB and its top competitors in La Liga
+
+`r Sys.Date()`
+
+
+--- .class #id 
+
+## Top Competitors
+
+- Athletic Bilbao
+- Atletico Madrid
+- Real Madrid
+- Sevilla FC
+- Valencia CF
+
+---
+
+## User Instructions
+
+- There is a widget on the left that is used to input the season.
+- On the right, you see a plot that shows the goals difference of FC Barcelona
+with its competitors during the given season. 
+- The goals difference for home games is shown with label 'H' in magenta color. - The goals difference for away games is shown with label 'A' in blue color.
+
+<div style='text-align: center;'>
+<img height='200' width='600' src='season_widget.png' />
+</div>
+
+---
+
+## User Instructions (continued)
+
+- The horizontal line is at goals difference of zero. This line indicates the drawn games.
+- The labels above show the games that Barca won by the number of goals on the y-axis. 
+- The labels below show the games that Barca lost by the number of goals shown on the y-axis.
+
+<div style='text-align: center;'>
+<img height='200' width='600' src='performance_chart.png' />
+</div>
+
+---
+
+## Shiny App FCB performance comparison
+
+Follow the link to use the app:
+https://mohsinraza.shinyapps.io/shiny_app2/
+```{r, echo=FALSE}
+## This comment and some inline r codes are added only to demonstrate the execution or r code at runtime using slidify
+```
+<div style='text-align: center;'>
+<img height='320' width='540' src='main.png' />
+</div>
+
+<font size="3">
+You are watching this slide at `r date()`. <br>
+<i>For any comments or questions, write to me at </i> mohsinrazadanish@gmail.com </font>
+
+
+
+

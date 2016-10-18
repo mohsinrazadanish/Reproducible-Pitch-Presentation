@@ -1,0 +1,15 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+shiny
+engsoccerdata
+ggplot2
+slidify
+rJava
+xlsxjars
+xlsx
+openxlsx
